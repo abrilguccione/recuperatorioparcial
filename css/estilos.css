@@ -1,0 +1,52 @@
+/* Aquí podés escribir tus estilos CSS nativos */
+nav, footer {
+    background: #4539ec;
+    color: #120411;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+nav a {
+    color: #060216;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+nav a:focus,
+nav a:hover {
+    color: #fff;
+    background: #000;
+    outline: 2px dashed #000;
+    text-decoration: underline;
+}
+
+/* Ejemplo de paginación fija */
+.paginacion {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 200;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.2);
+}
+
+.paginacion a {
+    color: #000;
+    margin: 0 1rem;
+    text-decoration: underline;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.paginacion a:focus,
+.paginacion a:hover {
+    color: #fff;
+    background: #000;
+    border-radius: 8px;
+    padding: 0.3rem 0.7rem;
+    border: 1px solid #fff;
+}
